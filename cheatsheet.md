@@ -52,12 +52,11 @@ npm install botbuilder
 npm install moment
 ```
 
-
-
 ## Code Snippets
 
-##Set up Restify Server and Create Chat bot
+### Set up Restify Server and Create Chat bot
 
+```
      var bot = new builder.UniversalBot(connector);
      var server = restify.createServer();
      server.listen(process.env.port || process.env.PORT || 3000, function ()
@@ -78,11 +77,14 @@ npm install moment
     var n = 0;
     server.post('/api/messages', connector.listen());
     bot.dialog('/', dialog);
+```
 
-##Bot Dialogs
+### Bot Dialogs
 
+```
     dialog.matches('<your intent name>', [
     function (session, args) {
         session.send("<your response>");
 		}
       ]);
+```
