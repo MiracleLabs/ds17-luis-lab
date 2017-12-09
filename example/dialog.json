@@ -1,0 +1,189 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "Erin",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "intent.capabilities"
+    },
+    {
+      "name": "intent.greeting"
+    },
+    {
+      "name": "intent.id"
+    },
+    {
+      "name": "intent.thankyou"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "number"
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hello",
+      "intent": "intent.greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "intent.greeting",
+      "entities": []
+    },
+    {
+      "text": "12",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "thank you",
+      "intent": "intent.thankyou",
+      "entities": []
+    },
+    {
+      "text": "thanks",
+      "intent": "intent.thankyou",
+      "entities": []
+    },
+    {
+      "text": "2",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "intent.greeting",
+      "entities": []
+    },
+    {
+      "text": "1",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "4",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "9",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "intent.greeting",
+      "entities": []
+    },
+    {
+      "text": "good bye",
+      "intent": "intent.thankyou",
+      "entities": []
+    },
+    {
+      "text": "3",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "123",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "8",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "7",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "5",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "6",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "what do you do",
+      "intent": "intent.capabilities",
+      "entities": []
+    },
+    {
+      "text": "what can you do",
+      "intent": "intent.capabilities",
+      "entities": []
+    },
+    {
+      "text": "tell me about yourself",
+      "intent": "intent.capabilities",
+      "entities": []
+    },
+    {
+      "text": "how can you help me",
+      "intent": "intent.capabilities",
+      "entities": []
+    },
+    {
+      "text": "123654",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "1236",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "123654987",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "digital summit id is 54145",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "my id is 4145",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "1236548",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "1236549",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "12365",
+      "intent": "intent.id",
+      "entities": []
+    },
+    {
+      "text": "5478541",
+      "intent": "intent.id",
+      "entities": []
+    }
+  ]
+}

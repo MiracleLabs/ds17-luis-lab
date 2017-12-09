@@ -1,0 +1,16 @@
+{
+  "name": "erinbot",
+  "version": "1.0.0",
+  "description": "bot which recognizes name and id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "luis-sdk": "^1.0.1",
+    "restify": "^6.3.4"
+  }
+}
